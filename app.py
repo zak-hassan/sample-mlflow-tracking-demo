@@ -68,7 +68,7 @@ def train(in_alpha, in_l1_ratio):
         l1_ratio = float(in_l1_ratio)
 
          
-    mlflow.set_tracking_uri("http://0.0.0.0:5000")
+    #mlflow.set_tracking_uri("http://zak-tracking-server-svc-myproject.192.168.64.12.nip.io")
     # Useful for multiple runs (only doing one run in this sample notebook)    
     with mlflow.start_run():
         # Execute ElasticNet
