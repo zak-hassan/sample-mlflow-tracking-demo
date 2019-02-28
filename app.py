@@ -92,7 +92,7 @@ def train(in_alpha, in_l1_ratio):
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
 
-        #mlflow.sklearn.log_model(lr, "model")
+        mlflow.sklearn.log_model(lr, "model")
 
 
 # In[11]:
